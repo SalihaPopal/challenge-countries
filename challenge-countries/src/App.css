@@ -1,0 +1,40 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.i-mode{
+  padding-top: 1rem;
+}
+.fa{
+  padding-top: 1rem;
+}
+.dark-mode{
+  font-weight: bold;
+}
+
+.cart-container{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.country-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+  
+.country-flag {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;  
+}
+span{
+ font-weight: bold;
+}
