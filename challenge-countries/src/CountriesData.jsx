@@ -16,12 +16,12 @@ const CountriesData = () => {
         
       {data.map((country, index) =>(
         <div key={index} className='country-card'> 
-        <img
-            src={`./countriesAll.svg`}
+          <img
+            src={`https://flagcdn.com/${country.alpha2Code.toLowerCase()}.svg`}
             alt={`${country.name} Flag`}
             className="country-flag"
           />
-        <h3>{country.name}</h3>
+        <h2>{country.name}</h2>
         <p><span>Population:</span> {country.population}</p>
         <p><span>Region:</span> {country.region}</p>
         <p><span>Capital:</span> {country.capital}</p>
